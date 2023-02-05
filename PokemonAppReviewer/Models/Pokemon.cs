@@ -6,4 +6,6 @@ public class Pokemon
     public string Name { get; set; }
     public DateTime Birthdate { get; set; }
     public ICollection<Review> Reviews { get; set; } // because it is many Review assosiated with it then using Icollec, it is almost the same as a list
+    public ICollection<PokemonOwner> PokemonOwners { get; set; }
+    public ICollection<PokemonCategory> PokemonCategories { get; set; }
 }
