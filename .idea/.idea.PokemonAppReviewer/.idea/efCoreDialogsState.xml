@@ -5,9 +5,10 @@
       <map>
         <entry key="Common:967d5db3-0eb2-4e22-9886-ea0e727cc3ef:dbContext" value="PokemonAppReviewer.Data.DataContext" />
         <entry key="Common:buildConfiguration" value="Debug" />
-        <entry key="Common:noBuild" value="true" />
+        <entry key="Common:noBuild" value="false" />
         <entry key="Common:outputFolder" value="Migrations" />
         <entry key="Common:targetFramework" value="net6.0" />
+        <entry key="Common:useDefaultConnection" value="true" />
       </map>
     </option>
   </component>

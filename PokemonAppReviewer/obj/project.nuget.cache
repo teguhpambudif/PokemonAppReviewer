@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MD0nPKaP5Wt2zlwiqY4gRfVTXCkjAY9KY3yGt0dUAhjbQ0ByaC1IVuNlwNnTvrnWDsijdeuCajuVEo8lzx9ozw==",
+  "dgSpecHash": "cOcze/QTF0sSR9fTFPYdthj5adimoWYJp0iyRuCex3Wi+O3lCqaNu0r9CIELDU1owaS7fG9GjzTOPvEr1BF3bQ==",
   "success": true,
   "projectFilePath": "/home/teguhpambudif/Documents/Playground/RiderProjects/PokemonAppReviewer/PokemonAppReviewer/PokemonAppReviewer.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "/home/teguhpambudif/.nuget/packages/microsoft.entityframeworkcore.design/6.0.13/microsoft.entityframeworkcore.design.6.0.13.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.13/microsoft.entityframeworkcore.relational.6.0.13.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.13/microsoft.entityframeworkcore.sqlserver.6.0.13.nupkg.sha512",
+    "/home/teguhpambudif/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.13/microsoft.entityframeworkcore.tools.6.0.13.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
