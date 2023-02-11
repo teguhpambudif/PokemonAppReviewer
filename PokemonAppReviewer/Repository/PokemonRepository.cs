@@ -16,4 +16,24 @@ public class PokemonRepository : IPokemonRepository
     {
         return _context.Pokemon.OrderBy(p => p.Id).ToList();
     }
+
+    public Pokemon GetPokemon(int id)
+    {
+        return _context.Pokemon.Where(p => p.Id == id).FirstOrDefault();
+    }
+
+    public Pokemon GetPokemon(string name)
+    {
+        return _context.Pokemon.Where(p => p.Name == name).FirstOrDefault();
+    }
+
+    public decimal GetPokemonRating(int pokeId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public bool PokemonExists(int pokeId)
+    {
+        throw new NotImplementedException();
+    }
 }
