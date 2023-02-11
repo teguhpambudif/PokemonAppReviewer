@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cOcze/QTF0sSR9fTFPYdthj5adimoWYJp0iyRuCex3Wi+O3lCqaNu0r9CIELDU1owaS7fG9GjzTOPvEr1BF3bQ==",
+  "dgSpecHash": "N4iwxZLQ/+J+kpwk4cWrnBd5kqB+K4Wd/ih+x1yAQvM0HMUz8yF+fDVtnwviwErXBr/vaN55LG/0812+M+y5aQ==",
   "success": true,
   "projectFilePath": "/home/teguhpambudif/Documents/Playground/RiderProjects/PokemonAppReviewer/PokemonAppReviewer/PokemonAppReviewer.csproj",
   "expectedPackageFiles": [
+    "/home/teguhpambudif/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/teguhpambudif/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
