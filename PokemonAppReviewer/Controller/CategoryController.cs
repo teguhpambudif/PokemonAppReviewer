@@ -55,7 +55,12 @@ public class CategoryController : Microsoft.AspNetCore.Mvc.Controller
     [ProducesResponseType(400)]
     public IActionResult GetPokemonByCategoryId(int categoryId)
     {
-        var pokemon = _mapper.Map<PokemonDto>(_categoryRepository.GetPokemonByCategoryId(categoryId));
+        if (!_categoryRepository.CategoryExists(categoryId))
+        {
+            return NotFound();
+        }
+        
+        var pokemon = _mapper.Map<List<PokemonDto>>(_categoryRepository.GetPokemonByCategoryId(categoryId));
         if (!ModelState.IsValid)
         {
             return BadRequest(ModelState);
