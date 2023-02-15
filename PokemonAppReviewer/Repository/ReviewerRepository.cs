@@ -31,4 +31,10 @@ public class ReviewerRepository : IReviewerRepository
     {
         return _context.Reviewers.Where(r => r.Id == reviewerId).FirstOrDefault();
     }
+
+    public ICollection<Review> GetReviewsByReviewerId(int reviewerId)
+    {
+        return _context.Reviews.Where(r => r.Reviewer.Id == reviewerId).ToList();
+    }
+    
 }

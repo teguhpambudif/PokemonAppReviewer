@@ -50,4 +50,22 @@ public class ReviewerController : Microsoft.AspNetCore.Mvc.Controller
 
         return Ok(reviewer);
     }
+
+    [HttpGet("{reviewerId}/reviews")]
+    [ProducesResponseType(200, Type = typeof(Reviewer))]
+    public IActionResult GetReviewsByReviewerId(int reviewerId)
+    {
+        if (!_reviewerRepository.ReviewerExist(reviewerId))
+        {
+            return NotFound();
+        }
+
+        var reviews = _mapper.Map<List<ReviewDto>>(_reviewerRepository.GetReviewsByReviewerId(reviewerId));
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+
+        return Ok(reviews);
+    }
 }

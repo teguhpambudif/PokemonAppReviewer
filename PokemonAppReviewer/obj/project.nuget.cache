@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ua6aDoGtBmGH14zjwTZfmjcfrTsWHF8pZW8xkz3O2guAlNOv0vEJIOweeboDYRnLABYlfmZY80I9u+nk8TQNkw==",
+  "dgSpecHash": "dME4UenmjHHILZEPtw2o8kGA1lqiH+n7X1iqjzlgMWVgRI7sUMszjMLspV7iA6vu1E23F6gfA5GPsvFQoehphA==",
   "success": true,
   "projectFilePath": "/home/teguhpambudif/Documents/Playground/RiderProjects/PokemonAppReviewer/PokemonAppReviewer/PokemonAppReviewer.csproj",
   "expectedPackageFiles": [
@@ -62,10 +62,7 @@
     "/home/teguhpambudif/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
     "/home/teguhpambudif/.nuget/packages/system.text.encoding.codepages/4.7.0/system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "/home/teguhpambudif/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
-    "/home/teguhpambudif/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
-    "/home/teguhpambudif/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
-    "/home/teguhpambudif/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.13/microsoft.netcore.app.host.linux-x64.6.0.13.nupkg.sha512"
+    "/home/teguhpambudif/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
