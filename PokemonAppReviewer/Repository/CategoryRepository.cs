@@ -32,4 +32,17 @@ public class CategoryRepository : ICategoryRepository
     {
         return _context.Categories.Any(c => c.Id == id);
     }
+
+    public bool CreateCategory(Category category)
+    {
+        // there are 2 type of state. connected and disconnected(EntityState.Added)
+        _context.Add(category); // this works a change tracker
+        return Save();
+    }
+
+    public bool Save()
+    {
+        var saved = _context.SaveChanges();
+        return saved > 0 ? true : false;
+    }
 }
