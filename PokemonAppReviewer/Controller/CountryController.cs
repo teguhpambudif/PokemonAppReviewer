@@ -77,6 +77,7 @@ public class CountryController : Microsoft.AspNetCore.Mvc.Controller
         
         return Ok(owners);
     }
+    
     [HttpPost]
     [ProducesResponseType(204)]
     [ProducesResponseType(400)]
