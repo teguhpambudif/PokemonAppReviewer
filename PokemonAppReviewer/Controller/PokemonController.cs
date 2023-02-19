@@ -68,4 +68,5 @@ public class PokemonController : Microsoft.AspNetCore.Mvc.Controller
 
         return Ok(rating);
     }
+    
 }
